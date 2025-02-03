@@ -9,7 +9,7 @@ const AboutUs = () => {
                     <div className="w-6/12 max-lg:w-full">
                         <div className="relative">
                             <div className="relative lg:mb-7 sm:mb-5 mb-[35px]">
-                                <h1 className="pt-8 xl:text-5xl lg;text-4xl text-3xl font-black text-white tracking-[6px] relative z-10 max-md:pt-10">About Us</h1>
+                                <h1 className="pt-8 xl:text-5xl lg;text-4xl text-3xl font-black text-white tracking-[6px] relative z-[1] max-md:pt-10">About Us</h1>
                                 <span className="absolute inset-0 xl:text-5xl lg;text-4xl text-3xl font-black bg-gradient-to-t to-light-purple via-light-pink from-light-orange bg-clip-text text-transparent tracking-[6px] md:top-[31px] top-10 -translate-x-0.5">About Us</span>
                             </div>
                             <div className="sm:pt-[25px]">
