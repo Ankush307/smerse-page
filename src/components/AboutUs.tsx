@@ -1,32 +1,33 @@
 "use client";
-import { ABOUT_US_LIST } from "@/utils/helper";
 import Image from "next/image";
-
+import { ABOUT_US_LIST } from "@/utils/helper";
 const AboutUs = () => {
     return (
-        <div className="flex px-5 container mx-auto pt-11 pb-[78px] justify-between flex-wrap">
-            <div>
-                <div className="relative">
-                    <h2 className="pt-8 text-5xl font-black text-white tracking-[3px] relative z-10 leading-custom-md max-md:text-[40px] max-md:pt-[108px]">About Us</h2>
-                    <span className="absolute inset-0 text-5xl max-md:text-[40px] leading-custom-md font-black bg-gradient-to-t to-light-purple via-light-pink from-light-orange bg-clip-text text-transparent tracking-[3px] top-[33.5%] -translate-x-[1.5px] max-md:top-[70%]">About Us</span>
-                </div>
-                <div className="pt-7">
-                    {ABOUT_US_LIST.map((obj, i) => (
-                        <div key={i} className="flex gap-5 pt-2">
-                            <div className="!size-[29px]">
-                                {obj.icon}
+        <div className="bg-[#0A0A2B] sm:pt-[84px] pt-0 pb-16 relative">
+            <div className="max-w-[1141px] mx-auto">
+                <div className="flex items-center max-lg:flex-wrap gap-16 max-lg:gap-10 px-4">
+                    <div className="w-6/12 max-lg:w-full">
+                        <div className="relative">
+                            <div className="relative lg:mb-7 sm:mb-5 mb-[35px]">
+                                <h1 className="pt-8 xl:text-5xl lg;text-4xl text-3xl font-black text-white tracking-[6px] relative z-10 max-md:pt-10">About Us</h1>
+                                <span className="absolute inset-0 xl:text-5xl lg;text-4xl text-3xl font-black bg-gradient-to-t to-light-purple via-light-pink from-light-orange bg-clip-text text-transparent tracking-[6px] md:top-[31px] top-10 -translate-x-0.5">About Us</span>
                             </div>
-                            <p className="text-white tracking-[1.5px] text-base leading-custom-xl max-w-[560px] font-normal">
-                                {obj.description}
-                            </p>
+                            <div className="sm:pt-[25px]">
+                                {ABOUT_US_LIST.map((obj, i) => (
+                                    <div key={i}>
+                                        <div className="flex items-center gap-5 max-xl:my-4">
+                                            <Image src="/assets/images/webp/about-us-img.webp" width={29} height={29} alt="icons" className="w-full max-w-[39px]" />
+                                            <p className="text-white font-normal text-base leading-6 max-w-[510px] max-xl:max-w-none">{obj.description}</p>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
                         </div>
-                    ))}
+                    </div>
+                    <div className="w-6/12 max-lg:w-full">
+                        <Image src="/assets/images/webp/about-us-img.webp" width={621} height={478} alt="smerse" className="object-contain" />
+                    </div>
                 </div>
-            </div>
-            <div className="relative">
-                <Image width={478.06} height={478.31} src="/assets/images/webp/about-us-img.webp" alt="about image" />
-                {/* <Image width={635} height={679} src={aboutBlueLayer} alt="layer" />
-                <Image width={635} height={679} src={aboutRedLayer} alt="layer" /> */}
             </div>
         </div>
     );
