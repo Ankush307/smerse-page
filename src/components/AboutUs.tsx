@@ -3,10 +3,10 @@ import Image from "next/image";
 import { ABOUT_US_LIST } from "@/utils/helper";
 const AboutUs = () => {
     return (
-        <div className="bg-[#0A0A2B] lg:pt-[140px] sm:pt-16 pt-7 pb-16 relative">
+        <div className="bg-[#0A0A2B] lg:pt-[140px] sm:pt-16 pt-7 pb-16 relative overflow-hidden">
             <div className="max-w-[1141px] mx-auto">
-                <div className="flex items-center max-lg:flex-wrap gap-16 max-lg:gap-10 px-4">
-                    <div className="w-6/12 max-lg:w-full">
+                <div className="flex items-center max-lg:flex-wrap gap-16 max-lg:gap-10 ">
+                    <div className="w-6/12 max-lg:w-full max-xl:px-4 z-[1] ">
                         <div className="relative">
                             <div className="relative">
                                 <h1 className="pt-8 xl:text-5xl lg;text-4xl text-3xl font-black text-white tracking-[6px] relative z-[1] max-md:pt-10">About Us</h1>
@@ -22,8 +22,8 @@ const AboutUs = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-6/12 max-lg:w-full">
-                        <Image src="/assets/images/webp/about-us-img.webp" width={621} height={478} alt="smerse" className="object-contain" />
+                    <div className="w-6/12 max-lg:w-full relative max-lg:pt-10">
+                        <Image className="object-contain lg:w-[1085px] w-full lg:absolute right-[-7%] top-[-160px] max-lg:-translate-x-9 max-xl:-translate-x-[110px] scale-125 lg:scale-150" src="/assets/images/webp/about-us-img.webp" width={621} height={478} alt="smerse" />
                     </div>
                 </div>
             </div>
