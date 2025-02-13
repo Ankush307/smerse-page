@@ -22,7 +22,7 @@ const Project = () => {
                         </div>
                     </div>
                     <div className="w-6/12 max-lg:w-full relative">
-                        <Image className="w-full h-auto max-w-[471px] max-lg:mx-auto " src="/assets/images/png/ring-girl.png" width={471} height={626} alt="smerse" />
+                        <Image className="w-full h-auto max-w-[471px] max-lg:mx-auto pointer-events-none" src="/assets/images/png/ring-girl.png" width={471} height={626} alt="smerse" />
                     </div>
                 </div>
             </div>
