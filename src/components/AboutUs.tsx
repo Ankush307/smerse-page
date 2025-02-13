@@ -6,13 +6,13 @@ const AboutUs = () => {
     return (
         <div className="bg-[#0A0A2B] lg:pt-[180px] sm:pt-16 pt-16 pb-16 relative max-xl:overflow-hidden">
             <div className="max-w-[1141px] mx-auto">
-                <div className="flex items-center max-lg:flex-wrap gap-16 max-lg:gap-10 ">
+                <div className="flex items-center max-lg:flex-wrap gap-16 max-lg:gap-10">
                     <div className="w-6/12 max-lg:w-full max-xl:px-4 z-[1] ">
                         <div className="relative">
                             <CustomHeading text="About Us" myClass="pb-7 max-lg:pb-5 max-sm:pb-[35px] relative z-20" spanClass="!top-[1.5px]" />
                             <div className="flex flex-col lg:gap-2 gap-3">
                                 {ABOUT_US_LIST.map((obj, i) => (
-                                    <div key={i} className="flex items-center gap-5">
+                                    <div key={i} className="flex gap-5">
                                         <div className="max-w-[29px] w-full h-[29px] flex items-center justify-center rounded-full bg-gradient-to-t to-light-purple via-light-pink from-light-orange shadow-[0px_1px_6px_1px_#952FFE,0px_0px_1px_#FF676B]">{obj.icon}</div>
                                         <p className="text-white font-normal text-base leading-6 max-w-[510px] max-xl:max-w-none">{obj.description}</p>
                                     </div>

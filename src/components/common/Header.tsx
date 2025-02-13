@@ -53,10 +53,10 @@ const Header = () => {
         </div>
         <div className="flex items-center justify-center gap-10 lg:hidden">
           <button className="text-white hover:scale-110 ease-linear max-md:hidden lg:hidden p-[11px_28px_11px_30px] shadow-[0px_4px_10px_0px_#FF676B,2px_0px_10px_3px_#952FFE] bg-gradient-to-t to-light-purple via-light-pink from-light-orange text-xl font-extrabold leading-6 tracking-[6%] rounded-lg transition-all duration-300"> Mint Now</button>
-          <button onClick={handleClick} className="flex flex-col items-center justify-between relative z-20 overflow-hidden sm:h-8 sm:w-[39px] h-[19px] w-5 lg:hidden">
-            <span className={`w-full h-[3px] sm:h-[5px] transition-all duration-300 bg-white rounded-lg ${open ? " translate-x-10" : ""}`}></span>
-            <span className={`w-full h-[3px] sm:h-[5px] transition-all duration-300 bg-white rounded-lg ${open ? " -translate-x-10" : ""}`}></span>
-            <span className={`w-full h-[3px] sm:h-[5px] transition-all duration-300 bg-white rounded-lg relative after:absolute after:top-0 after:left-0 after:w-full sm:after:h-[5px] after:h-[3px] after:bg-white after:rounded-lg ${open ? "after:rotate-90 rotate-45 -translate-y-2 sm:-translate-y-3 " : "after:hidden"}`}></span>
+          <button onClick={handleClick} className="flex flex-col items-center justify-between relative z-20 overflow-hidden sm:h-8 sm:w-[39px] h-[11px] w-3.5 lg:hidden">
+            <span className={`w-full h-[2px] sm:h-[5px] transition-all duration-300 bg-white rounded-lg ${open ? " translate-x-10" : ""}`}></span>
+            <span className={`w-full h-[2px] sm:h-[5px] transition-all duration-300 bg-white rounded-lg ${open ? " -translate-x-10" : ""}`}></span>
+            <span className={`w-full h-[2px] sm:h-[5px] transition-all duration-300 bg-white rounded-lg relative after:absolute after:top-0 after:left-0 after:w-full sm:after:h-[5px] after:h-[2px] after:bg-white after:rounded-lg ${open ? "after:rotate-90 rotate-45 -translate-y-[5px] sm:-translate-y-3 " : "after:hidden"}`}></span>
           </button>
         </div>
       </div>
