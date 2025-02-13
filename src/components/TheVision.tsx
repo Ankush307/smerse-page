@@ -16,7 +16,7 @@ const TheVision = () => {
                                         <CustomHeading text={obj.number} myClass="mb-0 text-4xl mx-auto text-center " />
                                     </div>
                                 </div>
-                                <div className="text-white max-w-[312px] tracking-[6%] leading-[27.2px] !pb-8"><p>{obj.description}</p></div>
+                                <div><p className="text-white !max-w-[312px] !tracking-[6%] !leading-[27.2px] !pb-8">{obj.description}</p></div>
                             </div>
                         </div>
                     ))}
