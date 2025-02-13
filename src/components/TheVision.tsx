@@ -4,7 +4,7 @@ import { VISION_LIST } from '@/utils/helper'
 
 const TheVision = () => {
     return (
-        <div id='vision' className='lg:pt-48 md:pt-26'>
+        <div id='vision' className='lg:pt-32 md:pt-26'>
             <div className="container max-w-[1142px] mx-auto xl:px-0 lg:px-8 max-md:px-4">
                 <CustomHeading text="THE VISION" myClass="!mx-auto" />
                 <div className="flex lg:justify-center max-md:justify-center gap-y-16 max-lg:flex-wrap gap-5 lg:pt-[138px] md:pt-24 pt-16">

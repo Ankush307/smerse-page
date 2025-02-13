@@ -4,7 +4,7 @@ import { ABOUT_US_LIST } from "@/utils/helper";
 import CustomHeading from "./common/CustomHeading";
 const AboutUs = () => {
     return (
-        <div className="bg-[#0A0A2B] lg:pt-[140px] sm:pt-16 pt-16 pb-16 relative overflow-hidden">
+        <div className="bg-[#0A0A2B] lg:pt-[180px] sm:pt-16 pt-16 pb-16 relative overflow-hidden">
             <div className="max-w-[1141px] mx-auto">
                 <div className="flex items-center max-lg:flex-wrap gap-16 max-lg:gap-10 ">
                     <div className="w-6/12 max-lg:w-full max-xl:px-4 z-[1] ">
