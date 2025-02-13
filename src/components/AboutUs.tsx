@@ -4,7 +4,7 @@ import { ABOUT_US_LIST } from "@/utils/helper";
 import CustomHeading from "./common/CustomHeading";
 const AboutUs = () => {
     return (
-        <div className="bg-[#0A0A2B] lg:pt-[180px] sm:pt-16 pt-16 pb-16 relative overflow-hidden">
+        <div className="bg-[#0A0A2B] lg:pt-[180px] sm:pt-16 pt-16 pb-16 relative max-xl:overflow-hidden">
             <div className="max-w-[1141px] mx-auto">
                 <div className="flex items-center max-lg:flex-wrap gap-16 max-lg:gap-10 ">
                     <div className="w-6/12 max-lg:w-full max-xl:px-4 z-[1] ">
@@ -21,7 +21,7 @@ const AboutUs = () => {
                         </div>
                     </div>
                     <div className="w-6/12 max-lg:w-full relative max-lg:pt-10">
-                        <Image className="object-contain lg:w-[1085px] w-full lg:absolute right-[-7%] top-[-220px] max-lg:-translate-x-9 max-xl:-translate-x-[110px] scale-125 lg:scale-150" src="/assets/images/webp/about-us-img.webp" width={621} height={478} alt="smerse" />
+                        <Image className="object-contain lg:w-[1085px] w-full lg:absolute max-xl:right-[-7%] right-[-15px] top-[-220px] max-lg:-translate-x-9 max-xl:-translate-x-[110px] scale-125 lg:scale-150" src="/assets/images/webp/about-us-img.webp" width={621} height={478} alt="smerse" />
                     </div>
                 </div>
             </div>
