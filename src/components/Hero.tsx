@@ -14,7 +14,7 @@ const Hero = () => {
                     <span className="absolute inset-0 text-8xl max-md:text-[40px] leading-custom-md font-black bg-gradient-to-t to-light-purple via-light-pink from-light-orange bg-clip-text text-transparent tracking-[6px] top-[23.5%] -translate-x-0.5 max-md:top-[70%]">SMERSE</span>
                 </div>
                 <h2 className='lg:text-4xl md:text-3xl sm:text-2xl text-xl font-semibold sm:leading-[54px] text-white max-w-[637px] text-center tracking-[6%] md:pt-2.5 pt-7 md:pb-11 pb-[82px] '>FOR A WHEALTHIER LIFESTYLE. ANYTIME, ANYWHERE</h2>
-                <button className="text-white mb-[50px] sm:px-[34px] sm:py-4 py-3 px-[25px] bg-gradient-to-t to-light-purple via-light-pink from-light-orange sm:text-xl font-extrabold leading-6 tracking-[6%] rounded-lg transition-all duration-300 shadow-[0px_1px_10px_1px_#952FFE,0px_1px_5px_1px_#FF676B]">Get Started</button>
+                <button className="text-white mb-[50px] ease-linear hover:scale-110 sm:px-[34px] sm:py-4 py-3 px-[25px] bg-gradient-to-t to-light-purple via-light-pink from-light-orange sm:text-xl font-extrabold leading-6 tracking-[6%] rounded-lg transition-all duration-300 shadow-[0px_1px_10px_1px_#952FFE,0px_1px_5px_1px_#FF676B]">Get Started</button>
             </div>
             <div className="w-full h-10 bg-gradient-to-t to-light-purple via-light-pink from-light-orange"></div>
             <Image width={164} height={164} src="/assets/images/webp/hero-side-layer.webp" alt="hero side layer" className="pointer-events-none pt-[52px] w-full h-auto absolute bottom-[-3%] max-w-[264px] right-[-7%] " />
